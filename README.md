@@ -18,6 +18,10 @@ Dockerized [qiita-markdown-cli](https://rubygems.org/gems/qiita-markdown-cli)
     $ chmod +x qmc
     $ export PATH=$HOME/bin:$PATH
 
+[Whalebrew](https://github.com/bfirsh/whalebrew) gives an easy installation to you.
+
+    $ whalebrew install masutaka/qiita-markdown-cli -n qmc
+
 ## Usage
 
 `qmc` outpts renderd html to STDOUT.
