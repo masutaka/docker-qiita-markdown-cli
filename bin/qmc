@@ -1,0 +1,12 @@
+#!/bin/sh -eu
+
+type docker > /dev/null
+
+IMAGE=masutaka/qiita-markdown-cli
+
+TARGET_PATH=$1
+TARGET_FILE=$(basename $TARGET_PATH)
+ABS_PATH=$(cd $(dirname $TARGET_PATH) && pwd)/$TARGET_FILE
+MOUNT_OPTION="-v $ABS_PATH:/$TARGET_FILE"
+
+docker run --rm $MOUNT_OPTION $IMAGE /$TARGET_FILE
