@@ -27,3 +27,5 @@ Dockerized [qiita-markdown-cli](https://rubygems.org/gems/qiita-markdown-cli)
 `qmc` outputs rendered html to STDOUT.
 
     $ qmc README.md
+
+You might be able to use `qmc` more conveniently with https://gist.github.com/masutaka/514514773a07fda1d221.
