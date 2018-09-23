@@ -1,8 +1,8 @@
 # docker-qiita-markdown-cli
 
+[![Docker Automated buil](https://img.shields.io/docker/automated/masutaka/qiita-markdown-cli.svg?logo=docker&style=flat-square)][dockerhub]
 [![Docker Stars](https://img.shields.io/docker/stars/masutaka/qiita-markdown-cli.svg?style=flat-square)][dockerhub]
 [![Docker Pulls](https://img.shields.io/docker/pulls/masutaka/qiita-markdown-cli.svg?style=flat-square)][dockerhub]
-[![Docker Automated buil](https://img.shields.io/docker/automated/masutaka/qiita-markdown-cli.svg?style=flat-square)][dockerhub]
 [![License](https://img.shields.io/github/license/masutaka/docker-qiita-markdown-cli.svg?style=flat-square)][license]
 
 [dockerhub]: https://hub.docker.com/r/masutaka/qiita-markdown-cli/
